@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: black;
+    height: 100vw;
+    width: 100vw;
+}
+
+body{
+    background: url(../projeto-rede-social/img/background.jpeg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background:url(img/frame-iphone.png);
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 21px;
+    width: 267px;
+    height: 471px;
+}
+
+section#social img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.678);
+    transform: translate(4px, 4px);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.432);
+    transition: .3s border 1s;
+}
+
+section#social > a {
+    text-align: right;
+    text-decoration: none;
+}
+
+section#social{
+    text-align: left;
+}
+
+section#social img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+    box-sizing: border-box;
+}
