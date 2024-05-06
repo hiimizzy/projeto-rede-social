@@ -5,14 +5,18 @@
     padding: 0px;
 }
 
+::-webkit-scrollbar{
+    background-color: rgba(235, 160, 222, 0.74);
+}
+
 html, body{
     background-color: black;
-    height: 50vw;
+    height: 100vw;
     width: 100vw;
 }
 
 body{
-    background: url(../projeto-rede-social/img/background.jpeg) no-repeat top center;
+    background: url(img/Design\ sem\ nome\ \(4\).png) no-repeat top center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -30,7 +34,7 @@ section#telefone{
 
     height: 627px;
     width: 311px;
-    background:url(img/telanokia.png) no-repeat top center;
+    background:url(img/telanokia.png) no-repeat  top center;
 }
 
 iframe#tela{
@@ -58,7 +62,7 @@ section#social{
 }
 
 section#social img{
-    width: 80px;
+    width: 40px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
